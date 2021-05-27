@@ -32,5 +32,4 @@ func main() {
 	for _, j := range mPlayers {
 		j.Greetings()
 	}
-
 }
