@@ -13,3 +13,6 @@ func IntMax(a, b int) int {
 	}
 	return b + 1
 }
+
+func main() {
+}
