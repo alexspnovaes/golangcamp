@@ -2,10 +2,13 @@ package main
 
 import "fmt"
 
-func main() {
-	func() {
+var (
+	msg = func() {
 		fmt.Println("Hello world")
-	}()
+	}
+)
 
+func main() {
+	go msg()
 	fmt.Println("main function")
 }
